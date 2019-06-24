@@ -14,21 +14,30 @@
 
 }
 
+.hdr-dv1>span {
+    float: right;
+}
+
 .hdr-dv1 {
 
-    margin-left: 1460px;
+    margin-left: 1150px;
+    position: relative;
 }
 
 .hdr-sp1 {
     width: 166px;
     height: 30px;
-    background: url("img/arrow_l.jpg") no-repeat;
+    background: url("img/sea_l.jpg") no-repeat;
+
 }
 
 .hdr-sp2 {
     width: 32px;
     height: 30px;
-    background: url("img/arrow_l.jpg") no-repeat;
+    background: url("img/sea_r.jpg") no-repeat;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
 }
 
 .hdr-nav {
@@ -88,6 +97,8 @@
 .mn-3 {
     margin-top: 10px;
     margin-left: 460px;
+
+
 }
 
 
@@ -99,12 +110,32 @@
 
 .mn3-dv1 {
     width: 313px;
-    height: 200px;
-    border: 1px solid red;
+    height: 220px;
+    border: 1px solid#ccc;
+    position: relative;
+    margin-right: 10px;
 }
 
 .mn3-dv1>span {
     float: left;
+}
+
+.dv1-sp3 {
+    width: 11px;
+    height: 19px;
+    background: url("img/arrow_l.jpg") no-repeat;
+    position: absolute;
+    top: 88px;
+    left: 0px;
+}
+
+.dv1-sp4 {
+    width: 11px;
+    height: 19px;
+    background: url("img/arrow_r.jpg") no-repeat;
+    position: absolute;
+    top: 88px;
+    right: 0px;
 }
 
 .dv1-sp2 {
@@ -128,6 +159,12 @@
     float: left;
 }
 
+.dv1-sp5 {
+    font-size: 16px;
+    color: green;
+    text-indent: 3px;
+}
+
 .dv3-sp1 {
     width: 14px;
     height: 14px;
@@ -136,12 +173,57 @@
 
 .mn3-dv2 {
     width: 348px;
-    height: 200px;
-    border: 1px solid red;
+    height: 220px;
+    border: 1px solid#ccc;
+    margin-right: 10px;
+
 }
 
 .mn3-dv3 {
     width: 313px;
-    height: 200px;
-    border: 1px solid red;
+    height: 220px;
+    border: 1px solid#ccc;
+    margin-right: 10px;
+
+}
+
+.footer {
+
+    width: 100%;
+    background: rgb(44, 43, 43);
+
+}
+
+.ft-dv1 {
+
+    width: 1000px;
+    margin: 10px auto;
+}
+
+.ft-ul1>li {
+
+    float: left;
+}
+
+.ft-dv1 {
+
+
+    margin: 20px auto;
+}
+
+.ft-ul1 li a {
+
+    display: block;
+    padding: 0px 25px;
+    color: white;
+
+}
+
+.ft-dv2 {
+
+    width: 1000px;
+    margin: 10px auto;
+    font-size: 11px;
+    text-align: center;
+    color: black;
 }
