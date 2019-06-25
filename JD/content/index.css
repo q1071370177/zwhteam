@@ -237,3 +237,106 @@
     top: 473px;
     right: -804px;
 }
+
+.body-login {
+    position: absolute;
+    width: 190px;
+    height: 480px;
+    background: #fff;
+    right: -6px;
+    top: 154px;
+}
+
+.bl-header span {
+    float: left;
+}
+
+.bl-sp1 a {
+    position: absolute;
+    display: block;
+    background: url(../images/nohead.png) no-repeat;
+    width: 60px;
+    height: 64px;
+    top: -9px;
+    right: 69px;
+
+}
+
+.bl-header {
+    text-align: center;
+}
+
+.bl-dv3 {
+
+    padding-top: 60px;
+    padding-bottom: 10px;
+    color: #898989;
+
+}
+
+.bl-dv1 a {
+    color: #676767;
+}
+
+.bl-sp2 a {
+    position: absolute;
+    display: block;
+    background: url(../images/newpeople.png) no-repeat;
+    width: 69px;
+    height: 23px;
+    top: 108px;
+    left: 22px;
+}
+
+.bl-sp3 a {
+    position: absolute;
+    display: block;
+    background: url(../images/plus.png) no-repeat;
+    width: 72px;
+    height: 26px;
+    top: 108px;
+    right: 22px;
+}
+
+.bl-body {
+    position: absolute;
+    top: 158px;
+    left: 10px;
+}
+
+.bb-dv1 {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.bb-sp1 {
+    position: relative;
+    top: 0px;
+    left: 71px;
+}
+
+.bb-sp1 a {
+    font-size: 11px;
+    color: #898989;
+}
+
+.bb-sp6 a {
+    font-size: 11px;
+}
+
+.news_tag {
+
+    display: inline-block;
+    position: relative;
+    font-size: 12px;
+    height: 16px;
+    width: 35px;
+    line-height: 16px;
+    text-align: center;
+    vertical-align: 0;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    color: #fff;
+    background-color: #e47f7f;
+    margin-right: 6px;
+}
