@@ -36,9 +36,9 @@ div {
 /* 设置整个网站的字体风格 */
 body {
     -webkit-font-smoothing: antialiased;
-    background-color: #fff;
+    background-color: #F0F3EF;
     font: 12px/1.5 Microsoft YaHei, tahoma, arial, Hiragino Sans GB, \\5b8b\4f53, sans-serif;
-    color: #666;
+
 }
 
 ul,

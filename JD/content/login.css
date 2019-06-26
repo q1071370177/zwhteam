@@ -1,0 +1,484 @@
+* {
+    padding: 0 px;
+    margin: 0 px;
+}
+
+.clearfix:after {
+    content: " ";
+    display: block;
+    height: 0px;
+    visibility: hidden;
+    clear: both;
+}
+
+body {
+    background: #FFFFFF;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+ul {
+    list-style: none;
+}
+
+input {
+    font-size: 15px;
+    outline: none;
+    border: none;
+}
+
+.head-c a {
+    text-decoration: none;
+}
+
+.d2 a {
+    text-decoration: none;
+}
+
+body>div {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background: rgb(250, 250, 250);
+    padding: 10px;
+}
+
+.box-head {
+    background: white;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    min-width: 1200px;
+}
+
+.box-head>div {
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+.box-head .head-a {
+    float: left;
+}
+
+.head-c,
+.head-b {
+    float: right;
+    font-size: 15px;
+    margin-right: 20px;
+    color: rgb(153, 153, 153);
+}
+
+.head-c>a {
+
+    color: rgb(168, 168, 168);
+    font-size: 12px;
+}
+
+.box-body1 {
+    margin: 0px auto;
+    width: 100%;
+    height: 20px;
+    background-color: #FFF8F0;
+}
+
+.body1-a {
+    font-size: 6px;
+    color: rgb(168, 168, 168);
+}
+
+.box-head:after {
+    display: block;
+    content: " ";
+    visibility: hidden;
+    clear: both;
+    height: 0px;
+}
+
+.tips-wrapper {
+    color: #333;
+    background: #fff8f0;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    vertical-align: middle;
+    color: #999;
+    font-size: 12px;
+    display: inline-block;
+    *display: inline;
+    position: relative;
+}
+
+.content .tips-wrapper .cont-wrapper {
+    position: relative;
+    display: inline-block;
+    *display: inline;
+    width: 90%
+}
+
+
+.icon-tips p span {
+
+    float: left;
+}
+
+.sp-icon {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background: url(../images/loginimg/icon-tips.png) no-repeat;
+    /* top: 121px; */
+    /* left: 550px; */
+    top: 22px;
+    left: 540px;
+}
+
+.login-banner {
+    position: absolute;
+    left: 0;
+    text-outline: 252px;
+    ;
+    width: 100%;
+    height: 505px;
+    background: #e93854
+}
+
+.box-body {
+
+    margin-top: 20px;
+    margin-left: 30%;
+    margin-right: 20%;
+    max-width: 870px;
+    min-width: 870px;
+    position: relative;
+}
+
+.w {
+    width: 990px;
+    margin: 0 auto;
+    width: 1210px;
+    height: 30px;
+    background: #F7F7F7;
+}
+
+.footer1 {
+    text-align: center;
+    color: #666666;
+}
+
+.footer1 a {
+
+    color: #666666;
+    font-size: 10px;
+    padding: 0px 8px;
+    text-decoration: none;
+}
+
+.box-body>.body-a {
+    display: inline-block;
+    margin-left: -17.5%;
+    padding: 0px 0px;
+}
+
+.box-body>.body-b {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 46%;
+}
+
+.body-b>.div1 {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 30px;
+}
+
+.body-b>.div1 img {
+    vertical-align: middle;
+}
+
+
+.body-b>.div1 .sp1 {
+    float: left;
+    margin-left: 35%;
+    font-weight: bold;
+}
+
+.body-b>.div1 .sp2 {
+    float: right;
+    margin-right: 20px;
+}
+
+.body-b>.div1 .sp2>a {
+    display: block;
+    font-size: 15px;
+    color: blue;
+}
+
+.body-b>.div1::after {
+    display: block;
+    content: " ";
+    visibility: hidden;
+    height: 0px;
+    clear: both;
+}
+
+.body-c {
+    max-width: 85%;
+    margin: 20px auto;
+    background: white;
+    position: relative;
+    z-index: 2;
+    border: lightgray 1px solid;
+}
+
+.body-c>.div-a1 {
+    position: absolute;
+    display: inline-block;
+    top: -18px;
+    left: 45%;
+    z-index: 3;
+}
+
+.body-c>.div-a2 {
+    display: inline-block;
+    widows: 100px;
+    margin-top: 30px;
+    margin-left: 5%;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+.dic-a0 {
+    display: inline-block;
+    margin-top: 0px;
+    width: 170px;
+    height: 50px;
+    margin: 0px auto;
+
+
+}
+
+
+
+.dic-a0 a {
+    display: block;
+    text-align: center;
+    line-height: 55px;
+    font-size: 20px;
+    color: rgb(168, 168, 168);
+    text-decoration: none;
+
+}
+
+.div-a2>.div-b1 div {
+    border: lightgray 1px solid;
+}
+
+.div-a2>.div-b1 div:hover {
+    border: rgb(153, 153, 153) 1px solid;
+}
+
+.div-a2>.div-b1 img {
+    vertical-align: middle;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+.div-a2>.div-b1 .d1 {
+    margin-bottom: 2px;
+}
+
+.div-a2>.div-b1 input {
+    width: 300px;
+    height: 50px;
+}
+
+.div-b2 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.div-b2 div {
+    display: inline-block;
+    font-size: 13px;
+}
+
+.div-b2>.d2 {
+    margin-left: 200px;
+}
+
+.d2 a {
+    color: #666666;
+    font-size: 12px;
+}
+
+.div-b3 {
+    position: relative;
+}
+
+.div-b3 a {
+    position: absolute;
+    display: block;
+    color: white;
+    text-decoration: none;
+    left: 45%;
+    top: 20%;
+}
+
+.div-b3 img {
+    width: 100%;
+    height: 40px;
+}
+
+.div-a3 {
+    height: 3px;
+    background: url("./登录界面/img04.png") repeat-x;
+    margin-top: 10px;
+}
+
+.div-a4 {
+    margin-top: 30px;
+    padding-left: 25px;
+}
+
+.div-a4 div {
+    margin-bottom: 10px;
+}
+
+.div-a4>.d1 {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.div-a4>.d3 {
+    font-size: 13px;
+    color: gray;
+}
+
+.box-bottom {
+    min-width: 1200px;
+}
+
+.box-bottom span {
+    display: block;
+    text-align: center;
+}
+
+.black {
+    text-decoration: none;
+}
+
+
+.footer2 {
+    margin-top: 5px;
+    text-align: center;
+    color: #666666;
+    font-size: 10px;
+}
+
+a:hover {
+
+    color: red;
+    text-decoration: red;
+
+
+}
+
+.dv1 {
+    position: absolute;
+    width: 100%;
+    height: 38px;
+    background: #FFF8F0;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+    vertical-align: middle;
+    color: #999;
+    font-size: 12px;
+    line-height: 40px;
+}
+
+.dv1 span {
+    float: left;
+}
+
+.dv1-icon {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background: url(../images/loginimg/icon-tips.png) no-repeat;
+    top: 13px;
+    left: 50px;
+}
+
+.div-a5 span {
+    float: left;
+}
+
+.a5-sp1 a {
+    display: block;
+    width: 19px;
+    height: 18px;
+    background: url("../images/loginimg/QQ-weixin.png") 0px 0px no-repeat;
+    position: relative;
+    top: 2px;
+    left: -3px;
+
+
+}
+
+.a5-sp2 a {
+
+    display: block;
+    width: 19px;
+    height: 18px;
+    background: url("../images/loginimg/QQ-weixin.png") -20px 0px no-repeat;
+    position: relative;
+    top: 2px;
+    left: 5px;
+}
+
+.a5-sp3 a {
+
+    font-size: 12px;
+    line-height: 5px;
+    text-decoration: none;
+    color: #66667E;
+}
+
+.a5-sp3 a:hover {
+    color: red;
+
+}
+
+.a5-sp5 {
+    position: relative;
+
+    right: -180px;
+}
+
+.a5-sp5 a {
+    text-decoration: none;
+    color: #B61D1D;
+}
+
+.a5-sp4 {
+    position: relative;
+}
+
+.a5-sp4 a {
+    width: 16px;
+    height: 16px;
+    background: url("../images/loginimg/pwd-icons-new.png") -104px -75px no-repeat;
+    position: absolute;
+    top: 4px;
+    left: 158px;
+
+}
