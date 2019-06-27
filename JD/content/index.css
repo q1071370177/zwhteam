@@ -43,9 +43,8 @@ i {
 
 }
 
-
 .jd-toolbar-tab i:hover {
-    position: absolute;
+    position: relative;
     top: 0;
     right: 35px;
     height: 35px;
@@ -115,11 +114,13 @@ i {
     position: absolute;
     z-index: 1;
     left: 0px;
+    /* left: -60px; */
     top: 0px;
     background-color: #7a6e6e;
     border-radius: 3px 0 0 3px;
     -webkit-transition: left .3s ease-in-out .1s;
     transition: left .3s ease-in-out .1s;
+
 }
 
 .tab-2 {
@@ -245,7 +246,7 @@ i {
     height: 67px;
     background: url(../images/top_6.png) no-repeat;
     bottom: -29px;
-    right: 81px;
+    right: 77px;
 
 }
 
@@ -267,6 +268,27 @@ i {
     background: url("../images/top_7.png") no-repeat;
     bottom: -53px;
     right: 130px;
+}
+
+.tr-dv1 {
+    position: relative;
+    float: left;
+
+}
+
+.tr-a2 {
+    float: right;
+    position: relative
+}
+
+.tr-a2:hover {
+    position: absolute;
+    width: 193px;
+    height: 312px;
+    background: url(../images/erma.png) no-repeat;
+    z-index: 2;
+
+
 }
 
 .free-reg,

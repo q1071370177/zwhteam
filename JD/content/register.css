@@ -1,0 +1,187 @@
+.header{
+    height: 100px;
+    width: 1920px;;
+     
+}
+
+
+
+
+
+.header-1>a{
+    padding: 25% 18%;
+}
+.header>.dv1{
+    height: 14px;
+    width: 144px;
+    position: relative;
+    font-size: 15px;
+    float: right;
+    margin-top: -1.5%;
+    margin-right:20%; 
+    color: #999; 
+}
+.dv1>a{
+    color: red;
+    text-decoration: none;
+}
+.dv1>a:hover{
+    color: #E2231A;
+    text-decoration:underline #E2231A;
+}
+.yy{
+    height: 7px;
+    width: 100%;
+    background: url(./img/yy.png) repeat-x;
+}
+.box2{
+    display: inline-block;
+    width: 100%;
+    height: 670px;
+    
+    
+}
+.box2>.dv2{
+    position: relative;
+    top: 10%;
+    left: 39%;
+    display: block;
+    
+}
+.box3{
+    max-width: 20.83%;
+    margin: 100px auto;
+    background: white;
+    position: relative;
+    z-index: 2;
+ 
+
+}
+.box3>.dv3{
+    width: 401px;
+    height: 53px;
+    display: inline-block;
+    
+    
+    
+}
+.box3>.dv3 select{
+    display: block;
+    width: 109px;
+    height: 52px;
+    border:  #DDDDDD 0.5px solid;
+}
+.box3>.dv3 input{
+    position: relative;
+    margin-top:-53px;  
+    margin-left: 27.25%;
+    display: block;
+    width: 290px;
+    height: 51px;
+    border: #DDDDDD 0.5px solid;
+
+}
+.box3>.dv3:hover{
+    border: #CCCCCC 0.5px solid;
+
+}
+
+.dv4{
+    margin-top: 36px;
+}
+.dv4 input:hover{
+    border: rgba(204, 204, 204, 0.685) 0.5px solid;
+}
+.box3>.dv3:focus{
+    border: rgba(204, 204, 204, 0.685) 0.5px solid;
+    
+}
+.next{
+    margin: auto auto;
+    margin-top: 52px;
+}
+.next a{
+    display: block;
+    width: 402px;
+    height: 56px;
+    background: url("./img/next.png") no-repeat center;
+}
+.next a:hover{
+    background: url("./img/next2.png") no-repeat;
+}
+.dv5{
+    position: relative;
+}
+.dv5-span a{
+    display: block;
+    width: 26px;
+    height: 26px;
+    background: url("./img/reg-icon.png") 0px -160px no-repeat;
+    position: absolute;
+    top: 20px;
+    left: 0px;
+
+}
+.dv5-a{
+    position: absolute;
+    font-size: 14px;
+    top: 22px;
+    left: 32px;
+    text-decoration: none;
+    color: #333333;
+}
+.dv6-span a{
+    display: block;
+    width: 26px;
+    height: 26px;
+    background: url("./img/reg-icon.png") -40px -160px no-repeat;
+    position: absolute;
+    top: 20px;
+    right: 90px;
+
+}
+.dv6-a{
+    position: absolute;
+    font-size: 14px;
+    top: 22px;
+    right: 0px;
+    text-decoration: none;
+    color: #333333;
+}
+.dv5 span a:hover{
+    color: #E2231A;
+
+}
+.box4{
+    margin: 243px auto;
+    width: 1210px;
+    height: 66px;
+    border-top: 0.5px solid #E6E6E6; 
+}
+body{
+	overflow-x: hidden;
+
+}
+.footer1 {
+    margin-top:30px;  
+    text-align: center;
+    color: #999999;
+}
+
+.footer1 a {
+    
+    color: #999999;
+    font-size: 10px;
+    padding: 0px 8px;
+    text-decoration: none;
+}
+.footer1 a:hover{
+    text-decoration: underline solid #999999;
+}
+
+.footer2 {
+    margin-top: 10px;
+    text-align: center;
+    color: #999999;
+    font-size: 10px;
+}

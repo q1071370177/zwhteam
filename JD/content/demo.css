@@ -1,0 +1,137 @@
+em,
+i {
+    font-style: normal;
+}
+
+.jd-toolbar {
+    position: fixed;
+
+    top: 0;
+    right: 0;
+    z-index: 9990;
+    width: 0;
+    height: 100%;
+    border: 3px solid #7A6E6E;
+}
+
+.jd-toolbar-tabs {
+    position: absolute;
+    top: 50%;
+    left: -29px;
+    width: 35px;
+    margin-top: -80px;
+
+}
+
+.jd-toolbar-tab {
+    position: relative;
+    width: 35px;
+    height: 35px;
+    margin-bottom: 1px;
+    cursor: pointer;
+    background-color: #7a6e6e;
+    border-radius: 3px 0 0 3px;
+
+}
+
+.jd-toolbar-tab i:hover {
+    position: relative;
+    top: 0;
+    right: 35px;
+    height: 35px;
+    line-height: 35px;
+    white-space: nowrap;
+    border-radius: 5px;
+    background: #c81623;
+    color: #fff;
+    padding: 0 10px;
+    padding-left: 30px;
+}
+
+.tab-1 {
+    display: inline-block;
+    background: url(../images/toolbars.png) no-repeat -88px -175px;
+    width: 34px;
+    height: 35px;
+    margin-left: 1px;
+    position: relative;
+    z-index: 2;
+    background-color: #7a6e6e;
+}
+
+
+
+
+
+.tab-2 {
+    display: inline-block;
+    background: url(../images/sidebar-toolbars-sprite.png) no-repeat 0px -2px;
+    width: 34px;
+    height: 35px;
+    margin-left: 1px;
+    position: relative;
+    z-index: 2;
+    background-color: #7a6e6e;
+}
+
+.tab-3 {
+    display: inline-block;
+    background: url(../images/jdcard.png) no-repeat;
+    width: 34px;
+    height: 35px;
+    margin-left: 1px;
+    position: relative;
+    z-index: 2;
+    background-color: #7a6e6e;
+}
+
+.tab-4 {
+    display: inline-block;
+    background: url(../images/toolbars.png) no-repeat -50px -100px;
+    width: 34px;
+    height: 35px;
+    margin-left: 1px;
+    position: relative;
+    z-index: 2;
+    background-color: #7a6e6e;
+}
+
+.tab-5 {
+    display: inline-block;
+    background: url(../images/toolbars.png) no-repeat -190px -150px;
+    width: 34px;
+    height: 35px;
+    margin-left: 1px;
+    position: relative;
+    z-index: 2;
+    background-color: #7a6e6e;
+}
+
+.tab-6 {
+    display: inline-block;
+    background: url(../images/toolbars.png) no-repeat -50px -150px;
+    width: 34px;
+    height: 35px;
+    margin-left: 1px;
+    position: relative;
+    z-index: 2;
+    background-color: #7a6e6e;
+}
+
+.tab-7 {
+    display: inline-block;
+    background: url(../images/toolbars.png) no-repeat -50px -300px;
+    width: 34px;
+    height: 35px;
+    margin-left: 1px;
+    position: relative;
+    z-index: 2;
+    background-color: #7a6e6e;
+}
+
+.jdm-toolbar-footer {
+    position: absolute;
+    bottom: -440px;
+    width: 100%;
+    left: -3px;
+}
